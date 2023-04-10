@@ -1,0 +1,95 @@
+body{
+    top: 0;
+    right: 0;
+    background: url(home.jpeg);
+    background-size: cover;
+}
+
+.home img{
+    width: 200px;
+    top: -50px;
+    left: 110px;
+    position: absolute;
+}
+
+form{
+    position: absolute;
+    width: 350px;
+    height: 420px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.home h2{
+    color: #fff;
+    margin-top: 120px;
+    margin-left: 140px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.home input[type="text"],[type="password"]{
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #0094ff;
+    background: none;
+    padding: 5px;
+    color: #fff;
+}
+
+.home input[type="text"]{
+    top: 150px;
+    left: 50px;
+}
+
+[type="password"]{
+    left: 50px;
+    top: 220px;
+}
+
+.home h1{
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: 130px;
+    color: #fff;
+}
+
+.home span{
+    color: #fff;
+}
+
+.home [value="login"]{
+    position: absolute;
+    top: 330px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: #0077ff;
+    outline:none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+
+}
+
+.home [value="login"]:hover{
+    background: #fff;
+    color: #0077ff;
+    transition: .1s;
+}
+
+
+
+
